@@ -1,0 +1,31 @@
+{"film": [ 
+    {
+    "titre":"Gemma Bovery",
+    "genre": "Comédie",
+    "durée" : "01h39",    
+    "réalisateur" : "Anne Fontaine",
+    "date" : "10 septembre 2014"
+    },
+    {
+    "titre":"Hippocrate",
+    "genre": "Comédie", 
+    "durée" : "01h24",
+    "réalisateur" : "Thomas Lilit",
+    "date": "3 septembre 2014"
+    },
+    {
+    "titre":"Sin City",
+    "genre": "Action,thriller et Drame", 
+    "durée" : "01h42min",
+    "réalisateur" : "Frank Miller",
+    "date" : "5 septembre 2014"
+    },
+    {
+    "titre":"Sex Tape",
+    "genre":"Comédie",
+    "durée" :"01h35",
+    "réalisateur":"jake Kasdan",
+    "date":"10 septembre 2014"
+    }
+  ]
+}  
