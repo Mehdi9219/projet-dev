@@ -1,0 +1,82 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font: 1.6rem 'Open Sans',sans-serif;
+    margin: 0;
+}
+h1,h2,h3,ul,p{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-weight: 300;
+}
+*{
+    box-sizing: border-box;
+}
+header h1, main h2{
+    line-height: 6.0rem;
+    background-color: #222;
+    color: #fafafa;
+    text-align: center;
+}
+main{
+    max-width: 40rem;
+    margin: 2.0rem auto;
+}
+div img{
+    display: block;
+    width: 100%;
+}
+section{
+    position: relative;
+    overflow: scroll;
+    height: 40rem;
+    box-shadow: 0 0 1.5rem rgba(0, 0, 0, 1);
+}
+section .slide_show{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 40rem;
+    /* parametres de l'animation */
+    animation: slideIn 8s linear infinite;
+}
+/* stoper l'animation */
+section .slide_show:hover{
+    animation-play-state: paused;
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+/* la diapo */
+.slide_1{
+    top: 0;
+}
+.slide_2{
+    top: -40rem;
+}
+.slide_3{
+    top: -80rem;
+}
+@keyframes slideIn{
+    0%{
+        top: 0; 
+    }
+    22%{
+        top: 0; /* pause */
+    }
+    33%{
+        top: -40rem;
+    }
+    45%{
+        top: -40rem;/* pause */
+    }
+    66%{
+        top: -80rem;
+    }
+    90%{
+        top: -80rem; /* pause */
+    }
+}
