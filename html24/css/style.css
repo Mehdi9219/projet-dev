@@ -1,0 +1,41 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font: 1.6rem sans-serif;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+h1,h2,h3,p{
+    font-weight: 100;
+}
+input[type="text"], input[type="password"]{
+    display: block;
+    margin: 1.0rem 0;
+    padding: 0.8rem;
+    width: 100%;
+    border: solid 0.1rem transparent;
+    border-bottom-color: #ccc;
+
+}
+input[type="submit"]{
+    background-color: #0000FF;
+    color: #fff;
+    padding: 1rem;
+    width: 16rem;
+    border-radius: 0.6rem;
+    border: #0000FF 1px solid;
+    margin: 1rem auto;
+    display: block;
+}
+header h1{
+    text-align: center;
+}
+form{
+    max-width: 70rem;
+    margin: 0 auto 1.0rem;
+}
+
+
